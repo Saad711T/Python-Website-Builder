@@ -1,0 +1,137 @@
+import os
+import sys
+"""هذي المكتبات الأساسية للمشروع اللي راح نستخدمها"""
+
+
+
+# Html content embedded here..
+html_content = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+	<style>
+:root {
+    --primary-color: #6c5ce7;
+    --secondary-color: #a29bfe;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.hero-section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.feature-card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+	</style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-book-open"></i> Your Website
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="container">
+            <h1 class="display-4 mb-4">Your website</h1>
+            <p class="lead mb-5">Editing this</p>
+            <a href=" about.html" class="btn btn-primary btn-lg">Get Started</a>
+        </div>
+    </section>
+
+    <section class="container py-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature-card text-center">
+                    <i class="fas fa-pen feature-icon"></i>
+                    <h3>First</h3>
+                    <p>1</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card text-center">
+                    <i class="fas fa-sticky-note feature-icon"></i>
+                    <h3>Second</h3>
+                    <p>2</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card text-center">
+                    <i class="fas fa-lock feature-icon"></i>
+                    <h3>Third</h3>
+                    <p>3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">&copy; Your website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+"""
+
+# Saving the HTML file in same directory
+with open("template.html", "w", encoding="utf-8") as f:
+    f.write(html_content)
+
+print("Done , your website is ready as template.html")
