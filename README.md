@@ -12,4 +12,4 @@ Python code creating html template for your website.
 [Github](https://github.com/Saad711T)
 [Linkedin](https://www.linkedin.com/in/saadalmalki711)
 
-![Image](pythonwebbuilder.png)
+![Image](pythonwebbuild.png)
