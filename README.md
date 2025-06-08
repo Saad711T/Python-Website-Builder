@@ -12,4 +12,4 @@ Python code creating html template for your website.
 [Github](https://github.com/Saad711T)
 [Linkedin](https://www.linkedin.com/in/saadalmalki711)
 
-![Image](https://www.canva.com/design/DAGpggjZ3_I/LvYpnR_7XuVI2LNMk6bJRw/edit?utm_content=DAGpggjZ3_I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+![Image](pythonwebbuilder.png)
