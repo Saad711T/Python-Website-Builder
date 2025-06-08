@@ -8,8 +8,8 @@ Python code creating html template for your website.
 
 #### Credits :
 **0xSaad**
-[X](https://x.com/0xdonzdev)
-[Github](https://github.com/Saad711T)
-[Linkedin](https://www.linkedin.com/in/saadalmalki711)
+- [Github](https://github.com/Saad711T)
+- [x.com](https://x.com/0xdonzdev)
+- [Linkedin](https://www.linkedin.com/in/saadalmalki711)
 
 ![Image](pythonwebbuild.png)
